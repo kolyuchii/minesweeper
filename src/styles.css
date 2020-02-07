@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+.row {
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #ddd;
+  border: 1px solid;
+  line-height: 40px;
+  position: relative;
+}
+.is-hidden:after {
+  content: "";
+  position: absolute;
+  background-color: #eee;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.is-blown-up {
+  background-color: #f00;
+}
